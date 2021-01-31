@@ -1,0 +1,6 @@
+<?
+
+
+reklam("karsilama");
+
+?> 

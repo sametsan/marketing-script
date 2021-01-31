@@ -1,0 +1,187 @@
+body
+{background:center #ddd;margin : 0 0 0 0;color:#000;font-family: Arial, Helvetica, sans-serif;font-size:0.7em;height:100%;} 
+
+form
+{display:inline;}
+
+a
+{text-decoration:none;color:#0055aa;font-size:11;cursor:pointer;}
+
+a:hover
+{cursor:pointer;text-decoration:underline;color:#555555;}
+
+table
+{font-size:11;}
+
+table tr
+{}
+
+table tr td
+{border:1px solid #CCC;padding:3;vertical-align:top;}
+
+.kenarliksiz tr td
+{border:0px solid #CCC;padding:3;vertical-align:top;}
+
+fieldset
+{border:1px solid #ccc;display:block;margin-bottom:10;background:#EFEFEF;width:880;}
+
+hr 
+{clear:both;display:block;color:#EFEFEF;} 
+
+input[type=text],input[type=password]
+{border:1px solid #ccc;height:30;width:100%;}
+
+input[type=text]:focus,
+input[type=password]:focus
+{border:1px solid #ccc;height:30;color:#ff8a00;}
+
+textarea
+{border:1px solid #ccc;width:100%;}
+
+textarea:focus
+{border:1px solid #ccc;width:100%;color:#ff8a00;}
+
+select,select:focus
+{border:1px solid #ccc;height:30;}
+
+select:focus
+{color:#ff8a00;}
+
+input[type=submit]
+{padding:5 10;border:1px solid #999;background:url("dugme.png");height:25;color:#555;}
+
+.dugme
+{background:url("dugme.png");padding:9;display:inline;border:1px solid #ccc;font-weight:bold;}
+.dugme a
+{color:#FFFFFF;}
+
+.temizle
+{clear:both;}
+
+.ana
+{width:950;margin:auto;background:#FFF;}
+
+.baslik
+{height:70;padding-top:30;color:#888;width:950;margin:auto;}
+
+.baslik a
+{padding:20;margin-top:30;font-size:30;color:#888;}
+
+.bilgiler
+{border-top:4px solid #05a8b7;color:#FFFFFF;background:#43b8f4;font-size:12;width:950;margin:auto;padding:10;text-align:left;}
+.bilgiler-s
+{float:left;width:46%;}
+
+.dip
+{border-top:1px solid #ccc;color:#555555;text-align:center;width:970;margin:auto;}
+
+.sol
+{float:left;width:170;padding:5;}
+
+.sag
+{float:left;width:170;padding:5;}
+
+.orta
+{margin:20;float:left;width:930;}
+
+.menu
+{height:30;width:950;background:#FFF;margin:auto;}
+.menu-dugme,.menu-dugme:hover
+{padding:0 10;line-height:3;border-right:1px solid #ccc;height:30;text-decoration:none;color:#000;float:left;font-weight:bold;font-size:11;display:inline;background:#FFF;}
+.menu-dugme:hover
+{cursor:pointer;text-decoration:none;color:#FFF;background:#EFEFEF;}
+
+
+
+.arama
+{float:right;margin-top:7;padding:5;margin-right:5;background:#FFFFFF;}
+.arama-girdi
+{border:1px solid #ccc;float:left;width:170;}
+.arama-dugme
+{}
+
+
+.tablo
+{background:#fff; width:98%;font-size:11;margin-bottom:5;}
+.tablo-baslik
+{height:30;background:url("tablo_baslik.png") left top ;}
+.tablo-baslik a
+{font-size:13;}
+.tablo-baslik-orta
+{padding:9 0;font-size:12;font-weight:bold;color:#FFFFFF;float:left;}
+.tablo-baslik-sol
+{background:url("tablo_baslik_sol.png") left top ;width:10;height:30;float:left;}
+.tablo-baslik-sag
+{background:url("tablo_baslik_sag.png") right top ;width:10;height:30;float:right;}
+
+.tablo-orta
+{padding:5;border:1px solid #ccc;}
+.orta-tablo-baslik
+{padding:4;font-size:13;font-weight:bold;border-bottom:3px solid #ff8a00;color:#000000;}
+.orta-tablo-baslik a
+{font-size:13;}
+
+.urun
+{border:1px solid #ccc;float:left;padding:9;width:122;background:url("urun_arka.png") repeat-x ;margin:1;height:220;}
+.urun-ad
+{font-size:12;color:#0055ff;}
+.urun-fiyat
+{font-size:11;color:#FF0000;font-weight:bold;}
+.urun-tanim
+{font-size:11;color:#229922;}
+.urun-cubuk
+{border:1px solid #ccc;padding:2;height:35;}
+.urun-satir
+{display:inline;}
+.urun-sepete-ekle
+{float:right;}
+.urun-resim
+{float:left;width:300;display:inline;border:1px solid #ccc;}
+.urun-ayrinti
+{float:left;display:inline;padding:10;}
+.urun-ufak
+{border-bottom:1px solid #ccc;}
+.urun-aciklama
+{font-size:12;}
+
+.uyari
+{padding:2;background:#DDFFDD;}
+
+.kategori
+{background:#EFEFFF;border:1px solid #cccccc;padding:4;cursor:pointer;font-weight:bold;}
+.kategori-u
+{background:#555555;border:1px solid #cccccc;padding:4;cursor:pointer;font-weight:bold;color:#FFFFFF;}
+.altkategori
+{padding:2;font-weight:bold;background:#f0feff;padding-left:10;}
+
+.uye_siparisler
+{
+ display:none;
+}
+
+.sozlesme
+{width:99%;overflow-y:scroll;height:100;background:#FFFFFF;}
+
+.siparisler-menu
+{padding:5;background:#ccc;width:890;margin-bottom:10;}
+
+.siparisler-menu a,.siparisler-menu a:hover
+{padding:5;}
+
+.siparisler-menu a:hover
+{background:#555;color:#FFF;}
+
+.liste a,.liste a:hover
+{padding:6;margin:3;display:block;border-bottom:1px solid #ccc;}
+.liste a:hover
+{background:#ccc;}
+.liste .secili
+{background:#FDD;}
+.liste a span
+{float:right;}
+
+
+.siparis_liste ul
+{padding:0;margin:0;}
+.siparis_liste ul li
+{padding:8;border-bottom:1px solid #ccc;}
